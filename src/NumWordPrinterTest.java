@@ -38,5 +38,11 @@ public class NumWordPrinterTest {
         assertEquals("ODDONEOUT", Printer.PrintWord(1, true));
         assertEquals("OddOneOut", Printer.PrintWord(3, false));
     }
+    @Test
+    public void testUpperCase() {
+        assertEquals("ODDONEOUT", Printer.PrintWord(1, false));
+        assertEquals("ODDONEOUT", Printer.PrintWord(1, true));
+        assertEquals("EVEN", Printer.PrintWord(2, false));
+    }
 
 }
