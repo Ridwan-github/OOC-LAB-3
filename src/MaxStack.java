@@ -57,5 +57,5 @@ public class MaxStack {
         throw new RuntimeException("Stack is empty");
     }
 
-}
+ }
 

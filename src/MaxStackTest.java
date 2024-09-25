@@ -44,5 +44,5 @@ public class MaxStackTest {
         assertEquals(3, stack.max());
     }
 
-}
+ }
 
